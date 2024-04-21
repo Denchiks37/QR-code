@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d5e1ef;
+}
+
+img {
+  width: 288px;
+  height: 288px;
+  border-radius: 20px;
+}
+
+.container {
+  font-family: "Outfit", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.heading,
+.body {
+  width: 265px;
+}
+
+.heading {
+  color: #1f314f;
+  padding-bottom: 16px;
+  font-weight: 800;
+  font-size: 22px;
+}
+
+.body {
+  color: #7d889e;
+}
+
+.card {
+  background-color: white;
+  width: 320px;
+  height: 500px;
+  margin: auto;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
